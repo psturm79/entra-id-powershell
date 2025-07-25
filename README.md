@@ -23,10 +23,10 @@ Microsoft Entra ID (Azure AD)
 
 📁 Project Structure
 
-'''entra-id-powershell/
+entra-id-powershell/
 ├── scripts/
 │   ├── create-user.ps1
 │   ├── clone-user.ps1
 │   ├── reset-password.ps1
 │   └── group-management.ps1
-└── README.md'''
+└── README.md
