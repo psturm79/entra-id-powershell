@@ -1,32 +1,29 @@
-🔐 Entra ID PowerShell Automation
-Automated PowerShell scripts to manage users, groups, and identity tasks using Microsoft Graph within Microsoft Entra ID (formerly Azure AD).
+# 🔐 Entra ID PowerShell Automation
 
-✨ Features
-✅ Create and manage Entra ID users
+Automated scripts using PowerShell and Microsoft Graph to manage users, groups, and identity tasks within Microsoft Entra ID (formerly Azure AD).
 
-🔁 Clone user profiles
+## ✨ Features
 
-🔐 Reset user passwords
+- ✅ Create and manage Entra ID users
+- 🔁 Clone user profiles
+- 🔐 Reset passwords
+- 👥 Manage group memberships
+- 📄 Audit and report on identity data
 
-👥 Manage group memberships
+## 🛠️ Tech Stack
 
-📄 Generate audit and identity reports
+- PowerShell 7+
+- Microsoft Graph API
+- MSAL / AzureAD module
+- Microsoft Entra ID
 
-🛠️ Tech Stack
-PowerShell 7+
+## 📂 Structure
 
-Microsoft Graph SDK for PowerShell
-
-MSAL or AzureAD modules
-
-Microsoft Entra ID (Azure AD)
-
-📁 Project Structure
-
-entra-id-powershell/
-├── scripts/
+```bash
+📁 scripts/
 │   ├── create-user.ps1
 │   ├── clone-user.ps1
 │   ├── reset-password.ps1
 │   └── group-management.ps1
-└── README.md
+📄 README.md
+
